@@ -3,6 +3,9 @@ import java.util.Scanner;
 class Variable{
     private static Variable equation = new Variable();
     
+     private Variable(){
+            this.equation=null;
+    }
     public static Variable getEquation(){
         return equation;
     }
